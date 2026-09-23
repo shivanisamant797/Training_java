@@ -14,6 +14,8 @@
 //     }
 
 // }
+//A record class in Java is a special kind of class designed mainly to store data with much less code.
+
 record Alien(String name, int age) {}
 
 public class Projects {

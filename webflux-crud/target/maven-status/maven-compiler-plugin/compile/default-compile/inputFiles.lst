@@ -1,0 +1,5 @@
+/home/shivani/Documents/training_java/webflux-crud/src/main/java/com/example/webfluxcrud/WebfluxCrudApplication.java
+/home/shivani/Documents/training_java/webflux-crud/src/main/java/com/example/webfluxcrud/controller/ProductController.java
+/home/shivani/Documents/training_java/webflux-crud/src/main/java/com/example/webfluxcrud/model/Product.java
+/home/shivani/Documents/training_java/webflux-crud/src/main/java/com/example/webfluxcrud/repository/ProductRepository.java
+/home/shivani/Documents/training_java/webflux-crud/src/main/java/com/example/webfluxcrud/service/ProductService.java

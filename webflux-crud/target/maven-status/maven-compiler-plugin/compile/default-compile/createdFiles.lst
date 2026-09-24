@@ -1,0 +1,5 @@
+com/example/webfluxcrud/controller/ProductController.class
+com/example/webfluxcrud/repository/ProductRepository.class
+com/example/webfluxcrud/service/ProductService.class
+com/example/webfluxcrud/model/Product.class
+com/example/webfluxcrud/WebfluxCrudApplication.class

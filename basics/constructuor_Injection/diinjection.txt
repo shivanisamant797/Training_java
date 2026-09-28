@@ -1,0 +1,44 @@
+there are three techniques to achieve dependency injection 
+1)Construction injection
+2)Setter injection
+3)Fild Injection 
+
+
+Constructior injection
+
+@Service
+public class OrderService {
+
+    private final PaymentService paymentService;
+
+    public OrderService(PaymentService paymentService) {
+        this.paymentService = paymentService;
+    }
+}
+
+
+Setter injection 
+
+@Service
+public class OrderService {
+
+    private PaymentService paymentService;
+
+    @Autowired
+    public void setPaymentService(PaymentService paymentService) {
+        this.paymentService = paymentService;
+    }
+}
+
+3. Field Injection
+
+The dependency is directly injected into a field using @Autowired.
+
+@Service
+public class OrderService {
+
+    @Autowired
+    private PaymentService paymentService;
+}
+
+Spring directly puts the PaymentService object into the field.

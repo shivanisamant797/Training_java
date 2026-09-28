@@ -1,0 +1,21 @@
+package org.example;
+
+public class Dev {
+    int age;
+    public Dev(){
+        System.out.println("Dev constructor");
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void build(){
+
+        System.out.println("Working on Awesome Project ");
+    }
+}
